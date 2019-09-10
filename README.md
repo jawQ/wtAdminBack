@@ -8,7 +8,7 @@ Steps to run this project:
 
 ## clone
 ```bash
-git clone -b dev https://gitee.com/wangten/wtAdminBack.git
+git clone https://github.com/jawQ/wtAdminBack.git
 ```
 
 ## install
