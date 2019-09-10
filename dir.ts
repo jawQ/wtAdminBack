@@ -1,0 +1,1 @@
+export const rootDir: string = __dirname

@@ -1,0 +1,25 @@
+{
+  "name": "wtAdminBack",
+  "version": "0.0.1",
+  "description": "Awesome project developed with TypeORM.",
+  "config": {"port": "3001"},
+  "devDependencies": {
+    "@types/node": "^8.0.29",
+    "ts-node": "^3.3.0",
+    "ts-node-dev": "^1.0.0-pre.42",
+    "tsconfig-paths": "^3.8.0",
+    "typescript": "^3.3.3333"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "express": "^4.15.4",
+    "mysql": "^2.14.1",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "0.2.18"
+  },
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "dev": "ts-node-dev --respawn src/index.ts",
+    "typeorm": "ts-node -r tsconfig-paths/register ./node_modules/typeorm/cli.js schema:sync -c --config ormconfig.ts"
+  }
+}
